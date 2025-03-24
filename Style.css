@@ -33,6 +33,12 @@ body {
     padding: 0;
     width: 60%; /* Asegura que la lista tenga más espacio */
 }
+#header{
+    padding: 15px;
+    background-color: white;
+    color: white;
+    grid-column: 1/4;
+}
 #aside-left {
     grid-column: 1 / 2;
     padding: 15px;
@@ -54,7 +60,7 @@ body {
 #footer {
     grid-column: 1 / 4;
     padding: 15px;
-    background-color: rgba(71, 109, 147, 1);
+    background-color: white;
     color: white;
 }
 #tabla {
