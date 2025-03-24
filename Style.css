@@ -61,7 +61,7 @@ body {
     grid-column: 1 / 4;
     padding: 15px;
     background-color: white;
-    color: white;
+    color: black;
 }
 #tabla {
     width: 100%;
