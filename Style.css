@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+}
+#nav {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    color: black;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Logo {
+    height: 60px;
+    width: auto;
+}
+#navul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 60%; /* Asegura que la lista tenga más espacio */
+}
+#aside-left {
+    grid-column: 1 / 2;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+#aside-rigth {
+    grid-column: 3 / 4;
+    padding: 15px;
+    background-color:red;
+    color: white;
+}
+#main {
+    grid-column: 2 / 3;
+    padding: 15px;
+    background-color: white;
+    color: black;
+}
+#footer {
+    grid-column: 1 / 4;
+    padding: 15px;
+    background-color: rgba(71, 109, 147, 1);
+    color: white;
+}
+#tabla {
+    width: 100%;
+    border-collapse: collapse;
+}
+#Pista {
+    height: 200px;
+    width: auto;
+    margin-left: 20px;
+}
+#tabla-pista-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
